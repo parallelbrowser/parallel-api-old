@@ -1,0 +1,44 @@
+{
+  "name": "plexus-api",
+  "version": "0.0.4",
+  "description": "API for interacting with Plexus profiles.",
+  "main": "index.js",
+  "dependencies": {
+    "injestdb": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "node-dat-archive": "^1.0.1",
+    "tempy": "^0.1.0"
+  },
+  "scripts": {
+    "test": "ava -s test/*.js && standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parallelbrowser/plexus-api.git"
+  },
+  "keywords": [
+    "dat",
+    "profile",
+    "site",
+    "plexus",
+    "api"
+  ],
+  "author": "Tom Willkens <tom.willkens@protonmail.com>",
+  "contributors": [
+    {
+      "name": "Prateek Agarwal",
+      "email": "prateeka@seas.upenn.edu"
+    },
+    {
+      "name": "Danhui Zhang",
+      "email": "danhuizzz@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parallelbrowser/plexus-api/issues"
+  },
+  "homepage": "https://github.com/parallelbrowser/plexus-api#readme"
+}
